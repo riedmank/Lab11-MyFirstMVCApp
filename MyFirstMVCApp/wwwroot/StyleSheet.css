@@ -1,2 +1,37 @@
-﻿body {
+﻿article {
+    max-width: 500px;
+    height: 600px;
+    border: 10px solid red;
+    margin: 0 auto;
+    text-align: center;
+}
+
+main {
+    width: auto;
+    border: 10px solid red;
+}
+
+h1 {
+    font-size: 6em;
+    color: red;
+}
+
+h2 {
+    font-size: 2em;
+    color: red;
+    text-align: center;
+}
+
+input {
+    width: 50px;
+    padding: 0 5px 0 5px;
+}
+
+.fields {
+    display: block;
+    margin-bottom: 20px;
+}
+
+button {
+    margin-bottom: 100px;
 }

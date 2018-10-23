@@ -2,17 +2,21 @@
 <html>
     <head>
         <title>Time Person of the Year</title>
-        <link href="~/StyleSheet.css"/>
+        <link rel="stylesheet" href="~/StyleSheet.css" />
     </head>
     <body>
-        <h1>Time</h1>
-        <form method="post">
-            <label for="begYear">Beginning Year: </label>
-            <input name="begYear" />
-            <label for="endYear">Ending Year: </label>
-            <input name="endYear" />
-            <button type="submit">Search</button>
-        </form>
-        <p>What year will you choose?</p>
+        <article>
+            <h1>Time</h1>
+            <form method="post">
+                <div class="fields">
+                    <label for="begYear">Beginning Year: </label>
+                    <input name="begYear" />
+                    <label for="endYear">Ending Year: </label>
+                    <input name="endYear" />
+                </div>
+                <button type="submit">Search</button>
+            </form>
+            <p>What year will you choose?</p>
+        </article>
     </body>
 </html>
